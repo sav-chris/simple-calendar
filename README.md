@@ -1,8 +1,16 @@
 
 # Very Simple Program to display a calendar
 
-Based on FullCalendar 
+Using FullCalendar 
 
+## Dependencies 
+
+[Docker](https://www.docker.com/)
+
+On Windows
+```powershell
+winget install -e --id Docker.DockerDesktop
+```
 
 ## Install and run
 
