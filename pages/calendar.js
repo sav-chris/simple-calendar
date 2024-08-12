@@ -13,7 +13,7 @@ export default function CalendarPage() {
   useEffect(() => {
     console.log('fetching events');
     async function fetchEvents() { 
-      let loadedEvents = await loadICS('http://localhost:3000/data/calendar.ics');
+      let loadedEvents = await loadICS('http://localhost:3000/data/processed_calendar.ics');
       setEvents(loadedEvents);
     }
     fetchEvents();
